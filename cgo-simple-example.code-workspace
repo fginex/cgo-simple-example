@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "/Users/frankg/go/src/github.com/fginex/cgo-simple-example"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+
+		"configurations": [
+
+			{
+				"name": "Run",
+				"type": "go",
+				"request": "launch",
+				"mode": "debug",
+				"program": "${workspaceFolder}/main.go",
+				"cwd": "${workspaceFolder}",
+				"env": {}
+			},
+		]
+	}
+}
+
